@@ -1,0 +1,25 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "1. HTML/CSS\r 2. JavaScript\r 3. SCSS (Sass)\r 4. Gulp\r \t1. gulp-sass\r \t2. gulp-imagemin\r \t3. gulp-uglify\r \t4. gulp-jshint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "pump": "^1.0.2"
+  }
+}

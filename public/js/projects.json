@@ -1,0 +1,167 @@
+{
+	"msg": "Working fine",
+
+	"projects": [
+
+		{
+			"project_name": "Space",
+			"project_gif": "",
+			"project_quote": "Find places to go.",
+			"project_link": "http://space-app.herokuapp.com",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, iusto nesciunt hic quae ullam commodi reiciendis beatae, quis voluptas libero aperiam repellendus, sed est magnam impedit! Deleniti sequi quas eius?",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Skye",
+			"project_gif": "",
+			"project_quote": "Descriptive weather conditions instantly.",
+			"project_link": "http://skye-app.herokuapp.com",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nulla praesentium nisi fugiat eveniet quod unde perferendis quas, atque repellat eum, reprehenderit, veniam iusto tempora dolores ut. Repellat, enim iusto.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Photira",
+			"project_gif": "",
+			"project_link": "#",
+			"project_quote": "Make a beautiful photo album that lives in your browser.",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolores, voluptatum, officiis modi rerum qui eaque. Dignissimos, voluptatum corporis assumenda sequi quia enim soluta, qui consequuntur sed non, debitis eveniet.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Gofr",
+			"project_gif": "",
+			"project_quote": "Live music's only a search away",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum id reprehenderit similique odio, atque dicta, dignissimos non sapiente, quibusdam, quidem optio corrupti pariatur eius suscipit. Ipsum labore necessitatibus repellat accusamus!",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Wordspy",
+			"project_gif": "",
+			"project_quote": "Word counter - How many words do you have?",
+			"project_link": "https://devinharris.github.io/wordspy",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum id reprehenderit similique odio, atque dicta, dignissimos non sapiente, quibusdam, quidem optio corrupti pariatur eius suscipit. Ipsum labore necessitatibus repellat accusamus!",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Muse",
+			"project_gif": "",
+			"project_link": "#",
+			"project_quote": "Small Python script for adding metadata to MP3s",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolores, voluptatum, officiis modi rerum qui eaque. Dignissimos, voluptatum corporis assumenda sequi quia enim soluta, qui consequuntur sed non, debitis eveniet.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Calculator",
+			"project_gif": "",
+			"project_quote": "Cool modern Calculator",
+			"project_link": "https://devinharris.github.io/calculator",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum id reprehenderit similique odio, atque dicta, dignissimos non sapiente, quibusdam, quidem optio corrupti pariatur eius suscipit. Ipsum labore necessitatibus repellat accusamus!",
+			"status": "Finished"
+		},
+
+		{
+			"project_name": "Shift",
+			"project_gif": "",
+			"project_quote": "Light UI Framework",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "OnThisDay",
+			"project_gif": "",
+			"project_quote": "JavaScript App that display cool infomation about the date.",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Note",
+			"project_gif": "",
+			"project_quote": "A static site.",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "photog",
+			"project_gif": "",
+			"project_quote": "A static site.",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Color Building app",
+			"project_gif": "",
+			"project_quote": "Build RGBA colors right in your browser.",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Scrollio",
+			"project_gif": "",
+			"project_quote": "Old jQuery plugin I build for smooth scrolling.",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "myFavLyrics",
+			"project_gif": "",
+			"project_quote": "A site displaying some of my favorite song lyrics.",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Novelist",
+			"project_gif": "",
+			"project_quote": "A static build of an old Wordpress site I built.",
+			"project_link": "https://devinharris.github.io/Novelist",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "HTML Email",
+			"project_gif": "",
+			"project_quote": "An old HMTL Email template I built and designed.",
+			"project_link": "https://devinharris.github.io/html_email",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		},
+
+		{
+			"project_name": "Prolist",
+			"project_gif": "",
+			"project_quote": "Online Shopping",
+			"project_link": "https://devinharris.github.io/prolist",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
+			"status": "WIP"
+		}, 
+		{
+			"project_name": "JavaScript Ulility Library",
+			"project_gif": "",
+			"project_quote": "A uility library built with JavaScript",
+			"project_link": "#",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum id reprehenderit similique odio, atque dicta, dignissimos non sapiente, quibusdam, quidem optio corrupti pariatur eius suscipit. Ipsum labore necessitatibus repellat accusamus!",
+			"status": "WIP"
+		}
+	]
+}
