@@ -1,6 +1,11 @@
 .hero {
     background: #fff url('../img/bg.png') center center no-repeat;
+    background-attachment: fixed;
     height: 100%;
+
+    .nav-menu {
+        cursor: pointer;
+    }
 
     .inner-hero {
         display: flex;
@@ -14,7 +19,7 @@
 
             .intro-name {
                 color: #b6b6b6;
-                letter-spacing: 4px;
+                letter-spacing: 8px;
                 .name-bold {
                     font-weight: 400;
                 }
@@ -23,6 +28,10 @@
             .intro-desc {
                 font-size: 1em;
                 letter-spacing: 3px;
+            }
+
+            @media all and (max-height: 600px) {
+                margin-bottom: 150px;
             }
         }
     }

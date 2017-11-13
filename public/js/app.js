@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', event => {
 	const xhr = new XMLHttpRequest();
 	let	projects,
 		counter = 0,
-		projectLink = querySel('.project-link'),
+		projectLink = querySel('.project-name'),
 		projectQuote = querySel('.project-quote'),
 		projectDesc = querySel('.project-desc'),
 		projectShortDesc = querySel('.project-short-desc'),
