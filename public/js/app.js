@@ -17,10 +17,11 @@ document.addEventListener('DOMContentLoaded', event => {
 	let	projects,
 		counter = 0,
 		projectLink = querySel('.project-name'),
-		projectQuote = querySel('.project-quote'),
+		projectQuote = querySel('.about-project'),
 		projectDesc = querySel('.project-desc'),
 		projectShortDesc = querySel('.project-short-desc'),
-		navBtns = document.querySelectorAll('.project-nav-btn');
+		navBtns = document.querySelectorAll('.project-nav-btn'),
+		tools = querySel('.tools');
 
 	// try to refactor xhr request code into a Promise
 
@@ -32,6 +33,7 @@ document.addEventListener('DOMContentLoaded', event => {
 
 			insertData(projectLink, projects.projects[counter].project_name);
 			insertData(projectQuote,  projects.projects[counter].project_quote);
+			insertData(tools, projects.projects[counter].tools);
 
 			
 		} else {
@@ -69,6 +71,7 @@ document.addEventListener('DOMContentLoaded', event => {
 			insertData(projectLink, projects.projects[counter].project_name);
 			projectLink.href = projects.projects[counter].project_link;
 			insertData(projectQuote, projects.projects[counter].project_quote);
+			insertData(tools, projects.projects[counter].tools);
 
 			//console.log(counter);
 		});

@@ -1,6 +1,18 @@
 .about {
-    margin-top: 150px;
+    margin: 50px 0;
     text-align: center;
-    height: 50%;
+    height: 500px;
     width: 100%;
+
+    .about-wrap {
+        margin-top: 50px;
+    }
+
+    @media all and (max-width: 750px) {
+        height: auto;
+
+        .about-wrap {
+            padding: 15px;
+        }
+    }
 }

@@ -23,6 +23,11 @@
                 line-height: 14px;
                 color: #fff;
                 text-decoration: none;
+                -webkit-transition: color 0.3s ease;
+
+                &:hover {
+                    color: #cffffe;
+                }
             }
 
             .tools-wrap {
@@ -58,7 +63,7 @@
         text-align: center;
 
         .project-info-wrap {
-            height: 25%;
+            height: 40%;
             padding: 10px;
             justify-content: center;
             width: 100%;
