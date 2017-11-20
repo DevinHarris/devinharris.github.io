@@ -5,6 +5,24 @@
 
 document.addEventListener('DOMContentLoaded', event => {
 
+	let	projects,
+		counter = 0,
+		projectLink = querySel('.project-name'),
+		projectQuote = querySel('.about-project'),
+		projectDesc = querySel('.project-desc'),
+		projectShortDesc = querySel('.project-short-desc'),
+		navBtns = document.querySelectorAll('.project-nav-btn'),
+		tools = querySel('.tools'),
+		why = querySel('.why'),
+		learned = querySel('.learned'),
+		writeupTitle = querySel('.writeup-title'),
+		$menuBtn = $('.nav-menu'),
+		$menu = $('.menu'),
+		projectImg = querySel('.project-img');
+
+	// try to refactor xhr request code into a Promise
+
+	
 	function querySel(el) {
 		return document.querySelector(el);
 	}
@@ -13,17 +31,34 @@ document.addEventListener('DOMContentLoaded', event => {
 		return el.textContent = data;
 	}
 
-	const xhr = new XMLHttpRequest();
-	let	projects,
-		counter = 0,
-		projectLink = querySel('.project-name'),
-		projectQuote = querySel('.about-project'),
-		projectDesc = querySel('.project-desc'),
-		projectShortDesc = querySel('.project-short-desc'),
-		navBtns = document.querySelectorAll('.project-nav-btn'),
-		tools = querySel('.tools');
 
-	// try to refactor xhr request code into a Promise
+
+	function addPortfolioData() {
+		// insertData for left sidebar
+			insertData(projectLink, projects.projects[counter].project_name);
+			projectLink.href = projects.projects[counter].project_link;
+			insertData(projectQuote, projects.projects[counter].project_quote);
+			insertData(tools, projects.projects[counter].tools);
+
+			// About project section
+			insertData(writeupTitle, `About ${projects.projects[counter].project_name}`);
+			insertData(why, projects.projects[counter].about.why);
+			insertData(learned, projects.projects[counter].about.learned);
+
+			// Add Writeup Images
+
+			 projectImg.src = projects.projects[counter].about.img;
+
+		
+			/*projectImgs.map((imgSrc) => {
+				if ($('.project-img').length !== projectImgs.length && $('.project-img').src !== imgSrc) {
+					$gallery.append(`<img class="project-img" src=${imgSrc} alt="Project Image"/>`);
+				}
+				
+			}); */
+	}
+
+	const xhr = new XMLHttpRequest();
 
 	xhr.onload = () => {
 
@@ -31,9 +66,7 @@ document.addEventListener('DOMContentLoaded', event => {
 			projects = JSON.parse(xhr.response);
 			console.log(projects.projects[0].project_name, projects.projects[0].status);
 
-			insertData(projectLink, projects.projects[counter].project_name);
-			insertData(projectQuote,  projects.projects[counter].project_quote);
-			insertData(tools, projects.projects[counter].tools);
+			addPortfolioData();
 
 			
 		} else {
@@ -68,16 +101,20 @@ document.addEventListener('DOMContentLoaded', event => {
 			}
 
 			// insert data into DOM
-			insertData(projectLink, projects.projects[counter].project_name);
-			projectLink.href = projects.projects[counter].project_link;
-			insertData(projectQuote, projects.projects[counter].project_quote);
-			insertData(tools, projects.projects[counter].tools);
+			
+			addPortfolioData();
 
 			//console.log(counter);
 		});
 	});
 
 	// write code to get about.html - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/HTML_in_XMLHttpRequest
+
+	// show nav 
+
+	$menuBtn.on('click', () => {
+		$menu.toggleClass('show-menu');
+	});
 
 });
 }());

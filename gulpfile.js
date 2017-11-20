@@ -42,6 +42,9 @@ gulp.task('default', () => {
 
 	gulp.watch('./public/sass/**/*.scss', ['sass']).on('change', bs.reload);
 	gulp.watch('./*.html').on('change', bs.reload)
+	gulp.src('./public/img/writeup-imgs-src/*')
+		.pipe(imagemin())
+		.pipe(gulp.dest('./public/img/writeup-imgs'));
 	//gulp.watch('./public/js/**/*.js', ['uglify']);
 
 });
