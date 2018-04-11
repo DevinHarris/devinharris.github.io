@@ -5,28 +5,25 @@ let gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	imagemin = require('gulp-imagemin'),
 	pump = require('pump'),
-	bs = require('browser-sync');
+	bs = require('browser-sync').create();
 
 /* Changed callbacks to Arrow functions */
 
 gulp.task('sass', () => {
-	return gulp.src('./public/sass/**/*.scss')
-				.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-				.pipe(gulp.dest('./public/css'))
-				.pipe(bs.reload({stream: true})) // reloads after compiling
+	return gulp
+		.src('./public/sass/**/*.scss')
+		.pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+		.pipe(gulp.dest('./public/css'))
+		.pipe(bs.stream({ match: './**/*.css' }));
 });
 
 gulp.task('uglify', cb => {
-		pump([
-		gulp.src('public/**/*.js'),
-		uglify(),
-		gulp.dest('public/js/min')
-	], cb
-	);
+	pump([gulp.src('public/**/*.js'), uglify(), gulp.dest('public/js/min')], cb);
 });
 
 gulp.task('imagemin', () => {
-	gulp.src('public/img/*')
+	gulp
+		.src('public/img/*')
 		.pipe(imagemin())
 		.pipe(gulp.dest('public/img'));
 });
@@ -37,15 +34,16 @@ gulp.task('default', () => {
 	bs.init({
 		server: {
 			baseDir: './'
-		}
-	})
+		},
 
-	gulp.watch('./public/sass/**/*.scss', ['sass']).on('change', bs.reload);
-	gulp.watch('./*.html').on('change', bs.reload)
-	gulp.src('./public/img/writeup-imgs-src/*')
+		injectChanges: true
+	});
+
+	gulp.watch('./public/sass/**/*.scss', ['sass']);
+	gulp.watch('./*.html').on('change', bs.reload);
+	gulp
+		.src('./public/img/writeup-imgs-src/*')
 		.pipe(imagemin())
 		.pipe(gulp.dest('./public/img/writeup-imgs'));
 	//gulp.watch('./public/js/**/*.js', ['uglify']);
-
 });
-

@@ -1,0 +1,92 @@
+.menu-btn-wrap {
+	cursor: pointer;
+	position: absolute;
+
+	left: 50px;
+	top: 50px;
+
+	z-index: 10000;
+
+	.menu-initials {
+		font-size: 1.6em;
+		font-weight: 600;
+		-webkit-transition: all 0.8s ease;
+	}
+}
+
+.menu {
+	align-items: center;
+	background: #fff;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	height: 0;
+	left: 0;
+	position: fixed;
+	text-align: left;
+	top: 0;
+	overflow: hidden;
+	z-index: 1;
+	padding: 50px;
+	opacity: 0;
+	visibility: hidden;
+	width: 100vw;
+	-webkit-transition: all 400ms ease;
+	.menu-inner {
+		.nav {
+			.nav-wrap {
+				list-style-type: none;
+
+				.nav-item {
+					opacity: 0;
+					visibility: hidden;
+					a {
+						text-decoration: none;
+						color: #353535;
+						font-size: 3em;
+						font-weight: bolder;
+						letter-spacing: 0.1em;
+					}
+				}
+			}
+		}
+	}
+}
+
+.slideIn {
+	-webkit-animation: slide 0.5s ease;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation: slide 0.5s ease;
+	-o-animation-fill-mode: forwards;
+	-ms-animation: slide 0.5s ease;
+	animation-fill-mode: forwards;
+}
+
+.slideOut {
+	-webkit-animation: slide 0.5s ease;
+	-webkit-animation-fill-mode: backwords;
+}
+
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		visibility: visible;
+		-webkit-transform: translateY(10px);
+	}
+}
+
+.show-menu {
+	opacity: 1;
+	height: 100vh;
+	visibility: visible;
+}
+
+.show-project-details-color {
+	color: #fff;
+}

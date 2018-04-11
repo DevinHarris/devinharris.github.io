@@ -13,21 +13,26 @@
 </head>
 <body>
 	<div class="s-container">
-		<div class="hero">
-			<header>
-				<div class="menu-container">
-					<span class="nav-menu"><i class="material-icons">menu</i></span>
-					<div class="menu">
-						<nav>
-							<ul class="navbar">
-								<li><a href="#portfolio" class="scrollio" data-scroll="portfolio">portfolio</a></li>
-								<li><a href="#about" class="scrollio" data-scroll="about">about</a></li>
-								<li><a href="#contact" class="scrollio" data-scroll="contact">contact</a></li>
-							</ul>
-						</nav>
-					</div>
+		<div class="menu-btn-wrap">
+			<h3 class="menu-initials">dh.</h3>
+		</div>
+		<div class="menu">
+				<div class="menu-inner">
+					<h1 class="menu-name">Devin.</h1>
+					<nav class="nav">
+						<ul class="nav-wrap">
+							<li class="nav-item" style="animation-delay: 0.1s"><a href="#">Home</a></li>
+							<li class="nav-item" style="animation-delay: 0.17s"><a href="#portfolio">Portfolio</a></li>
+							<li class="nav-item" style="animation-delay: 0.24s"><a href="#about">About</a></li>
+							<li class="nav-item" style="animation-delay: 0.38s"><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+
+					<p class="nav-quote">We're gonna make it.</p>
 				</div>
-			</header>
+			</div>
+		<header>
+			<div class="hero">
 			<div class="inner-hero">
 				<div class="intro">
 					<h1 class="intro-name"><span class="name-bold">Devin</span> Harris.</h1>
@@ -35,20 +40,27 @@
 				</div>
 			</div>
 		</div>
+		</header>
+		
 		<div class="portfolio"  id="portfolio">
 			<!--<h1 class="section-title">Portfolio</h1> -->
 			<div class="project-info-wrap">
 				<div class="project-info">
 					<h1><a href="#" target="_blank" class="project-name">Space.</a></h1>
-					<p class="about-project">About this project.</p>
+					<p class="project-type">About this project.</p>
 					<div class="tools-wrap">
 						<p class="tools">AngularJS, HTML5, CSS3</p>
 					</div>
-					<div class="arrows-wrap">
+					<a href="#" class="view-project">View Project</a>
+					<!--<div class="arrows-wrap">
 						<span class="left-wrap"><i class="material-icons left-arrow project-nav-btn" data-dir="left">keyboard_arrow_left</i></span>
 						<span class="left-wrap"><i class="material-icons right-arrow project-nav-btn" data-dir="right">keyboard_arrow_right</i></span>
-					</div>
+					</div> -->
 				</div>		
+			</div>
+
+			<div class="project-img">
+				
 			</div>
 			<div class="project-writeup-wrap">
 				<div class="project-writeup">
@@ -67,21 +79,16 @@
 					<div class="gallery">
 						<img class="project-img" src="#" alt="Project Image">
 					</div>
+
+					<a href="#" class="back-projects">Back to projects</a>
 				</div>
-			</div>
+			</div> 
 		</div>
 		<div class="about" id="about">
-			<video class="video-bg" autoplay muted loop>
-				<source src="/public/video/581513681.mp4" type="video/mp4"></source>
-			</video>
-			<div class="about-wrap">
-					<h1>More about me, Devin Harris</h1>
-				<div class="about-me">
-						<p>Nulla euismod lacinia ornare. E vitae cursus dolor. Nullam maxmollis lacus id iaculis. Etiam fermentum accumsan augue in blandit. Mauris aliquet blandit turpis sit amet blandit. Phasellus tincidunt metus eget mauris aliquam, ut mattis nisl accumsan. Vivamus iaculis sollicitudin urna nec maximus. Vestibulum luctus nibh non orci iaculis, id aliquam lorem malesuada. Donec sit amet erat in nulla interdum bibendum eget ornare purus. Duis finibus lorem et porta blandit. Sed commodo mauris nulla. Cras mollis feugiat fringilla.</p>
-						
-				</div>
-			</div>	
-			
+			<div class="about-intro">
+				 <p class="intro-text">Hi, my name is <span class="white-highlight">Devin.</span> Thank you for visiting my portfolio.</p>
+				 <p class="intro-text white-highlight">I think now’s a good time for you to get know me.</p>
+			</div>
 		</div>
 		<footer class="footer" id="contact">
 			<h1>Let's get in contact!</h1>
@@ -98,6 +105,5 @@
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="public/js/app.js"></script>
-	<script src="public/js/scrollio.js"></script>
 </body>
 </html>

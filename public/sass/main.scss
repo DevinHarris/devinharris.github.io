@@ -1,9 +1,3 @@
-@import
-	'base/base';
+@import 'base/base';
 
-@import
-	'layout/header',
-	'layout/hero',
-	'layout/portfolio',
-	'layout/about',
-	'layout/footer';
+@import 'layout/header', 'layout/hero', 'layout/menu', 'layout/portfolio', 'layout/about', 'layout/footer';
