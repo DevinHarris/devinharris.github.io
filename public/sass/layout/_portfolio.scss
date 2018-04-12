@@ -24,6 +24,7 @@
         justify-content: flex-start;
 
         padding: 90px;
+        position: relative;
         width: 50%;
 
         .project-info {
@@ -63,9 +64,27 @@
             }
 
             .arrows-wrap {
+                position: absolute;
+                bottom: 86px;
+                right: 90px;
                 .project-nav-btn {
+                    background-color: #c9c9c9;
                     cursor: pointer;
-                    font-size: 2em;
+                    display: inline-block;
+                    height: 3px;
+                    margin-right: 10px;
+                    width: 50px;
+                    -webkit-transition: all 0.3s ease;
+
+                    .arrow-text {
+                        display: none;
+                        -webkit-transition: all 0.3s ease;
+                    }
+
+                    &:hover > .arrow-text {
+                        display: block;
+                        -webkit-transform: translateY(50%);
+                    }
                 }
             }
         }

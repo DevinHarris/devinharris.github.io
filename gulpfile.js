@@ -14,7 +14,7 @@ gulp.task('sass', () => {
 		.src('./public/sass/**/*.scss')
 		.pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
 		.pipe(gulp.dest('./public/css'))
-		.pipe(bs.stream({ match: './**/*.css' }));
+		.pipe(bs.stream());
 });
 
 gulp.task('uglify', cb => {
