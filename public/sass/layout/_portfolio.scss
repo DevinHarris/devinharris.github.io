@@ -77,14 +77,18 @@
                     -webkit-transition: all 0.3s ease;
 
                     .arrow-text {
-                        display: none;
+                        /*display: none;
+                        visibility: hidden;
+                        opacity: 0; */
                         -webkit-transition: all 0.3s ease;
                     }
 
-                    &:hover > .arrow-text {
+                    /*&:hover > .arrow-text {
                         display: block;
+                        visibility: visible;
+                        opacity: 1;
                         -webkit-transform: translateY(50%);
-                    }
+                    } */
                 }
             }
         }
@@ -109,7 +113,7 @@
         opacity: 0;
         overflow-y: scroll;
         visibility: hidden;
-        -webkit-transition: all 1s ease;
+        -webkit-transition: all 0.5s ease;
 
         .writeup {
             margin: 100px 0;

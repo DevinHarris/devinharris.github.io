@@ -9,6 +9,7 @@
 			projectLink = querySel('.project-name'),
 			projectType = querySel('.project-type'),
 			projectDesc = querySel('.project-desc'),
+			projectQuote = querySel('.project-quote'),
 			projectShortDesc = querySel('.project-short-desc'),
 			navBtns = document.querySelectorAll('.project-nav-btn'),
 			tools = querySel('.tools'),
@@ -33,7 +34,7 @@
 			projectLink.href = projects.projects[counter].project_link;
 			insertData(projectType, projects.projects[counter].type);
 			insertData(tools, projects.projects[counter].tools);
-
+			insertData(projectQuote, projects.projects[counter].project_quote);
 			// About project section
 			insertData(writeupTitle, projects.projects[counter].project_name);
 			insertData(why, projects.projects[counter].about.why);
@@ -41,7 +42,7 @@
 
 			// Add Writeup Images
 
-			projectImg.src = projects.projects[counter].about.img;
+			//projectImg.src = projects.projects[counter].about.img;
 
 			/*projectImgs.map((imgSrc) => {
 				if ($('.project-img').length !== projectImgs.length && $('.project-img').src !== imgSrc) {
@@ -49,6 +50,15 @@
 				}
 				
 			}); */
+
+			// Change project img background
+
+			$('.project-img').css({
+				background: `url(../public/img/project-imgs/${projects.projects[
+					counter
+				].project_name.toLowerCase()}.png) center center no-repeat`,
+				'background-size': 'cover'
+			});
 		}
 
 		const xhr = new XMLHttpRequest();

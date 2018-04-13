@@ -51,6 +51,22 @@
 		},
 
 		{
+			"project_name": "Instavu",
+			"project_quote": "Instagram profiles in one place",
+			"project_link": "http://instavu.surge.sh",
+			"tools": "HTML5, CSS3, ReactJS, Webpack, Instagram API",
+			"type": "Web Development & Design",
+			"about": {
+				"img": "./public/img/writeup-imgs/gofr.png",
+				"why":
+					"This is also a recent React project and is currently a Work In Progress. I wanted to create an app where users can search for artists and see whether or not they are playing in their area. I also want to add functionality that pulls the artist's most popular songs from either Spotify, Last.fm, or Pandora.",
+				"learned":
+					" I'm continuing to learn more about the inner workings of React. Most notably, efficiently changing state which has lead me to learn about Redux and how to use it."
+			},
+			"status": "WIP"
+		},
+
+		{
 			"project_name": "Filmdova",
 			"project_link": "https://devinharris.github.io/filmdova",
 			"project_quote": "Find info on your favorite actors or actresses.",
@@ -83,25 +99,9 @@
 		},
 
 		{
-			"project_name": "Instavu",
-			"project_quote": "Instagram profiles in one place",
-			"project_link": "instavu.surge.sh",
-			"tools": "HTML5, CSS3, ReactJS, Webpack, Instagram API",
-			"type": "Web Development & Design",
-			"about": {
-				"img": "./public/img/writeup-imgs/gofr.png",
-				"why":
-					"This is also a recent React project and is currently a Work In Progress. I wanted to create an app where users can search for artists and see whether or not they are playing in their area. I also want to add functionality that pulls the artist's most popular songs from either Spotify, Last.fm, or Pandora.",
-				"learned":
-					" I'm continuing to learn more about the inner workings of React. Most notably, efficiently changing state which has lead me to learn about Redux and how to use it."
-			},
-			"status": "WIP"
-		},
-
-		{
 			"project_name": "myLvfts",
 			"project_quote": "My personal workout app",
-			"project_link": "mylvfts.surge.sh",
+			"project_link": "http://mylvfts.surge.sh",
 			"tools": "HTML5, CSS3, ReactJS, YouTube API",
 			"type": "Web Development & Design",
 			"about": {
@@ -279,29 +279,9 @@
 		},
 
 		{
-			"project_name": "Color Building app",
-			"project_quote": "Build RGBA colors right in your browser.",
-			"project_link": "https://devinharris.github.io/forms/color-building",
-			"type": "Web Development & Design",
-			"desc":
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
-			"status": "WIP"
-		},
-
-		{
 			"project_name": "Scrollio",
 			"project_quote": "Old jQuery plugin I built for smooth scrolling.",
 			"project_link": "https://www.github.com/DevinHarris/scrollio",
-			"type": "Web Development & Design",
-			"desc":
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
-			"status": "WIP"
-		},
-
-		{
-			"project_name": "myFavLyrics",
-			"project_quote": "A site displaying some of my favorite song lyrics.",
-			"project_link": "https://www.github.com/DevinHarris/myfavlyrics",
 			"type": "Web Development & Design",
 			"desc":
 				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
