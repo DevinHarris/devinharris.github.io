@@ -25,7 +25,7 @@
 		}
 
 		function insertData(el, data) {
-			return (el.textContent = data);
+			return (el.innerHTML = data);
 		}
 
 		function addPortfolioData() {

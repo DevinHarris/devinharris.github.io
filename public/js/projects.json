@@ -59,9 +59,9 @@
 			"about": {
 				"img": "./public/img/writeup-imgs/gofr.png",
 				"why":
-					"This is also a recent React project and is currently a Work In Progress. I wanted to create an app where users can search for artists and see whether or not they are playing in their area. I also want to add functionality that pulls the artist's most popular songs from either Spotify, Last.fm, or Pandora.",
+					"Instavu is another React project I built after learning more about ReactRouter and creating custom routes. Basically, Instavu allows you to build a wall of Instagram profiles and then see their latest posts on their individual Vu's. This was a very fun and useful project for me, mainly because I don't have an Instagram profile yet, and because I got to use the (unofficial) Instagram API.",
 				"learned":
-					" I'm continuing to learn more about the inner workings of React. Most notably, efficiently changing state which has lead me to learn about Redux and how to use it."
+					"As noted above I learned a deeper understanding about ReactRouter. I learned how to refresh data stored in LocalStorage. For this stage in development for Instavu, I found LocalStorage to be adequate enough, but as I look to the future of it, I definitely see the limitations of it. I'm looking to migrate data to Firebase, or mLab very soon."
 			},
 			"status": "WIP"
 		},
@@ -75,9 +75,9 @@
 			"about": {
 				"img": "./public/img/writeup-imgs/photira.png",
 				"why":
-					"Photira came about recently when I began learning React. One of the projects for my school Bov Academy was to create a photo gallery app with Handlebars, personally I'm not a huge fan of Handlebars (yet) so I decided it'd be a great time to learn to basics of React and try my hand at making my first React app.",
+					"Oh man, Filmdova is by far one of my favorite projects I've done. Mainly, because I wrote the JavaScript for this project with <strong>vanilla</strong> JavaScript. No external frameworks or libraries (even though I tried to use my framework/library _Fusion, however I found getting ES6 to work with Gulp is a bit of a hassle than it is with Webpack). Even though there's Google and IMDB, I wanted to try my hand at designing and developing my own actor/actress app.",
 				"learned":
-					"For the most part, React. Like getting data from child components and then changing the state. This part was the most confusing for me. But, eventually I got my head around the process of changing the state via a class method and then passing that method via props to the child component. I also learned about React's Lifecycle hooks and using them to save data (in Photira's instance, image URLs) to LocalStorage."
+					"I learned that using a vanilla JavaScript solution is not always the best way to write an app and sometimes (as cool and impressive as it is; in my opinion) can actually slowdown the process and make it troublesome. Especially when there's so many incredible frameworks and libraries available to use that solve those same problems for you. Simple things like clearing / refreshing the DOM are a bit tedious to do with vanilla JavaScript. I also learned clever (again in my opinion) ways of storing useful data within HTML attributes via data. I've used the data attribute before in other projects, but they've never been the backbone of project. I used them in a similar way React does with props, storing things like Actor's and credit IDs. That made it possible for the data to be cleanly used with AJAX calls to request more information about an Actor."
 			},
 			"status": "WIP"
 		},
@@ -91,9 +91,9 @@
 			"about": {
 				"img": "./public/img/writeup-imgs/photira.png",
 				"why":
-					"Photira came about recently when I began learning React. One of the projects for my school Bov Academy was to create a photo gallery app with Handlebars, personally I'm not a huge fan of Handlebars (yet) so I decided it'd be a great time to learn to basics of React and try my hand at making my first React app.",
+					"_Fusion started as a school project, but turned into something incredibly useful to me and my projects. It began with a few helper functions and then expanded into a series of DOM Manipulation methods, CSS helpers, AJAX Abstractions (including sending multiple GET requests at once; something I've found to be very useful), and Array & DataStore methods.",
 				"learned":
-					"For the most part, React. Like getting data from child components and then changing the state. This part was the most confusing for me. But, eventually I got my head around the process of changing the state via a class method and then passing that method via props to the child component. I also learned about React's Lifecycle hooks and using them to save data (in Photira's instance, image URLs) to LocalStorage."
+					"Since I do want other people (including a team) to eventually start using and contributing to _Fusion, I learned to try to write cleaner code and well as documenting my code with comments so when I come back it I still have a solid understanding of what's going on. Promises were also used for AJAX GET Requests so I got a great understanding on how to create and return them and what do with them once they're resolved."
 			},
 			"status": "WIP"
 		},
@@ -107,25 +107,25 @@
 			"about": {
 				"img": "./public/img/writeup-imgs/gofr.png",
 				"why":
-					"This is also a recent React project and is currently a Work In Progress. I wanted to create an app where users can search for artists and see whether or not they are playing in their area. I also want to add functionality that pulls the artist's most popular songs from either Spotify, Last.fm, or Pandora.",
+					"I had been wanting to build my own workout app for a while and decided to build it using React. myLvfts get its data from a JSON file that hold all the important information about the particular workout selected, including exercise, notes, sets / reps, etc. ",
 				"learned":
-					" I'm continuing to learn more about the inner workings of React. Most notably, efficiently changing state which has lead me to learn about Redux and how to use it."
+					"React came in handy here because it allowed me to use ReactRouter to create different routes and attach different Components onto them. The <em>react-youtube</em> React library was of great use as well as it allowed me to utilize the YouTube API without having to write much code for it at all."
 			},
 			"status": "WIP"
 		},
 
 		{
-			"project_name": "React Starter Pack",
+			"project_name": "React Template",
 			"project_quote": "An easy to use and customizable React template",
 			"project_link": "https://github.com/DevinHarris/react-template",
 			"tools": "HTML5, CSS3, ReactJS, YouTube API",
 			"type": "Web Development & Design",
 			"about": {
-				"img": "./public/img/writeup-imgs/gofr.png",
+				"img": "",
 				"why":
-					"This is also a recent React project and is currently a Work In Progress. I wanted to create an app where users can search for artists and see whether or not they are playing in their area. I also want to add functionality that pulls the artist's most popular songs from either Spotify, Last.fm, or Pandora.",
+					"The reason I created this is because while working with React itself is great, the setup and configuration is not. Setting up Webpack, having to configure it, and incorporating Babel, etc is not super fun so I needed a tool to help me quickly bootstrap  React projects. There's Create-React-App from Facebook, but I feel it's a lot of bloat and masks a lot of what's going on under the hood. The stack / workspace I use for these type of projects are React, Webpack, Sass, and NPM scripts so this template, with some other config reflects that.",
 				"learned":
-					" I'm continuing to learn more about the inner workings of React. Most notably, efficiently changing state which has lead me to learn about Redux and how to use it."
+					"Here NPM Scripts play an important role in making it easy for developers to get up and running. It wasn't difficult to learn about NPM Scripts, which can be viewed as simply commands, but making sure everything is truly easy to get started with little setup overhead can be. It was important to keep in mind who would possibly be using this template and wanted make things fast and simple so the most fun part actually writing React app could begin as soon as possible."
 			},
 			"status": "WIP"
 		},
@@ -183,7 +183,7 @@
 			"project_link": "https://www.github.com/DevinHarris/muse",
 			"project_quote": "Small Python script for adding metadata to MP3s",
 			"tools": "Python with Mutagen, OS, Subprocess libraries",
-			"type": "Web Development & Design",
+			"type": "Backend Development & Scripting",
 			"about": {
 				"img": "./public/img/writeup-imgs/wordspy.png",
 				"why":
@@ -219,9 +219,9 @@
 			"about": {
 				"imgs": [],
 				"why":
-					"Wordspy came about from a JavaScript utility function that I decided to breakout into it's own app. Wordspy takes text typed (or copy and pasted) into it's textarea and instantly updates with the word count.",
+					"OnThisDay was a school project utilizing the free and open Number API. The API offers very cool facts and various forms of trivia. In this project I took advantage of both finding trivia about the current date as well as random facts as well.",
 				"learned":
-					"Since this will also be built with React, I'm still learning more about it. I'm also learning more about JavaScript's and HTML5's Media Capture and other various APIs. I'm using QuaggaJS to help retrieve the barcode from a user's livestream and then pass it to a barcode database. From there, it will use Amazon's (or Walmart's) Product review API and Reddit's API to get what people are saying about the product."
+					"This was one of my first times really understanding how to work with APIs. I also had to utilize the <strong>Date()</strong> JavaScript Object, getting the current month and day is the backbone of getting the facts of the day. I also learned more about refactoring, condensing, and DRYing out my code. I condensed the API calls into one function <pre><code>callToNumAPI(reqType)</code></pre>, where reqType is determined depending on a button click."
 			},
 			"status": "WIP"
 		},
@@ -234,10 +234,8 @@
 			"type": "Web Development & Design",
 			"about": {
 				"imgs": [],
-				"why":
-					"Wordspy came about from a JavaScript utility function that I decided to breakout into it's own app. Wordspy takes text typed (or copy and pasted) into it's textarea and instantly updates with the word count.",
-				"learned":
-					"Since this will also be built with React, I'm still learning more about it. I'm also learning more about JavaScript's and HTML5's Media Capture and other various APIs. I'm using QuaggaJS to help retrieve the barcode from a user's livestream and then pass it to a barcode database. From there, it will use Amazon's (or Walmart's) Product review API and Reddit's API to get what people are saying about the product."
+				"why": "",
+				"learned": ""
 			},
 			"status": "Finished"
 		},
@@ -250,10 +248,8 @@
 			"type": "Web Development & Design",
 			"about": {
 				"imgs": [],
-				"why":
-					"Wordspy came about from a JavaScript utility function that I decided to breakout into it's own app. Wordspy takes text typed (or copy and pasted) into it's textarea and instantly updates with the word count.",
-				"learned":
-					"Since this will also be built with React, I'm still learning more about it. I'm also learning more about JavaScript's and HTML5's Media Capture and other various APIs. I'm using QuaggaJS to help retrieve the barcode from a user's livestream and then pass it to a barcode database. From there, it will use Amazon's (or Walmart's) Product review API and Reddit's API to get what people are saying about the product."
+				"why": "",
+				"learned": ""
 			},
 			"status": "WIP"
 		},

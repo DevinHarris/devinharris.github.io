@@ -23,9 +23,9 @@ gulp.task('uglify', cb => {
 
 gulp.task('imagemin', () => {
 	gulp
-		.src('public/img/*')
+		.src('./public/img/project-imgs/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('public/img'));
+		.pipe(gulp.dest('./public/img'));
 });
 
 gulp.task('default', () => {
@@ -41,9 +41,9 @@ gulp.task('default', () => {
 
 	gulp.watch('./public/sass/**/*.scss', ['sass']);
 	gulp.watch('./*.html').on('change', bs.reload);
-	gulp
-		.src('./public/img/writeup-imgs-src/*')
+	/*gulp
+		.src('./public/img/project-imgs/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('./public/img/writeup-imgs'));
+		.pipe(gulp.dest('./public/img/')); */
 	//gulp.watch('./public/js/**/*.js', ['uglify']);
 });

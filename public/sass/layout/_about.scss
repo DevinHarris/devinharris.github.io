@@ -1,25 +1,22 @@
 .about {
-    background-color: #edeff1; /* old color #1f1f1f*/
-    color: #000;
-    height: 700px;
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 100px;
+    padding: 90px;
+    width: 100vw;
 
-    .about-intro {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-
-        .intro-text {
-            font-size: 3em;
+    .about-section {
+        margin-bottom: 100px;
+        .about-heading {
+            font-weight: 500;
         }
 
-        .white-highlight {
-            color: #fff;
-            font-weight: 400;
+        .about-subheading {
+            font-size: 2em;
+        }
+        .about-desc {
+            color: #969696;
+            font-size: 1.3em;
         }
     }
 }
