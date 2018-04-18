@@ -1,5 +1,7 @@
 @import './fonts';
 
+$fullWidth: 100%;
+
 html,
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -9,4 +11,12 @@ body {
 	height: 100vh;
 	overflow-x: hidden;
 	width: 100vw;
+}
+
+.full-width {
+	width: $fullWidth;
+}
+
+.half-width {
+	width: $fullWidth / 2;
 }

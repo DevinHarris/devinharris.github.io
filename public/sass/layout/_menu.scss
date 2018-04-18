@@ -2,7 +2,7 @@
 	cursor: pointer;
 	position: absolute;
 
-	left: 50px;
+	left: 90px;
 	top: 50px;
 
 	z-index: 10000;
@@ -46,6 +46,21 @@
 						font-size: 3em;
 						font-weight: bolder;
 						letter-spacing: 0.1em;
+					}
+				}
+			}
+		}
+
+		@media all and (max-width: 1500px) {
+			h1 {
+				font-size: 2em;
+			}
+			.nav {
+				.nav-wrap {
+					.nav-item {
+						a {
+							font-size: 2em;
+						}
 					}
 				}
 			}

@@ -27,7 +27,15 @@
             }
 
             @media all and (max-height: 600px) {
-                margin-bottom: 150px;
+                margin-bottom: 0;
+            }
+        }
+
+        @media all and (max-width: 950px) {
+            justify-content: center;
+            .intro {
+                text-align: center;
+                padding: 0;
             }
         }
     }
