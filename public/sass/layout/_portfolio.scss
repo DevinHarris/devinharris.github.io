@@ -140,10 +140,10 @@
     transform: translate3d(-50%, 0, 0);
 
     @media all and (max-width: 900px) {
-        -webkit-transform: translate3d(0, -50%, 0);
-        -moz-transform: translate3d(0, -50%, 0);
-        -o-transform: translate3d(0, -50%, 0);
-        transform: translate3d(0, -50%, 0);
+        -webkit-transform: translate3d(0, -60%, 0);
+        -moz-transform: translate3d(0, -60%, 0);
+        -o-transform: translate3d(0, -60%, 0);
+        transform: translate3d(0, -60%, 0);
     }
 }
 

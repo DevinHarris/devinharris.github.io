@@ -20,3 +20,21 @@ body {
 .half-width {
 	width: $fullWidth / 2;
 }
+
+::-webkit-scrollbar {
+	background-color: #cdcdcd;
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #6ddbb7;
+}
+
+.project-writeup-wrap::-webkit-scrollbar {
+	background-color: #cdcdcd;
+	width: 6px;
+}
+
+.project-writeup-wrap::-webkit-scrollbar-thumb {
+	background-color: #6ddbb7;
+}
