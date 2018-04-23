@@ -47,7 +47,7 @@
                 -webkit-transition: color 0.3s ease;
 
                 &:hover {
-                    color: #cffffe;
+                    color: #9dfaed;
                 }
             }
 
@@ -89,6 +89,10 @@
                         opacity: 1;
                         -webkit-transform: translateY(50%);
                     } */
+
+                    &:hover {
+                        background-color: #9dfaed;
+                    }
                 }
             }
         }

@@ -1,7 +1,13 @@
 .about {
+    background: url('../img/about-bg.png') center center no-repeat;
+    /* background-color: #32383f; */
+    /* background-image: linear-gradient(to right top, #79e5ec, #53b8a1) */
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
     box-sizing: border-box;
     height: auto;
-    margin-top: 100px;
+    /*margin-top: 100px; */
     padding: 90px;
     width: 100vw;
 
@@ -15,8 +21,9 @@
             font-size: 2em;
         }
         .about-desc {
-            color: #969696;
+            /*color: #969696; */
             font-size: 1.3em;
+            font-weight: 300;
         }
     }
 }
