@@ -83,6 +83,22 @@
 		},
 
 		{
+			"project_name": "Ptrns",
+			"project_link": "https://ptrns.surge.sh",
+			"project_quote": "A personal New Tab Google Chrome Extension",
+			"tools": "Pure JavaScript, ES6, HTML5, CSS3",
+			"type": "Web Development, Web Design, Google Chrome Extension",
+			"about": {
+				"img": "./public/img/writeup-imgs/photira.png",
+				"why":
+					"Oh man, Filmdova is by far one of my favorite projects I've done. Mainly, because I wrote the JavaScript for this project with <strong>vanilla</strong> JavaScript. No external frameworks or libraries (even though I tried to use my framework/library _Fusion, however I found getting ES6 to work with Gulp is a bit of a hassle than it is with Webpack). Even though there's Google and IMDB, I wanted to try my hand at designing and developing my own actor/actress app.",
+				"learned":
+					"I learned that using a vanilla JavaScript solution is not always the best way to write an app and sometimes (as cool and impressive as it is; in my opinion) can actually slowdown the process and make it troublesome. Especially when there's so many incredible frameworks and libraries available to use that solve those same problems for you. Simple things like clearing / refreshing the DOM are a bit tedious to do with vanilla JavaScript. I also learned clever (again in my opinion) ways of storing useful data within HTML attributes via data. I've used the data attribute before in other projects, but they've never been the backbone of project. I used them in a similar way React does with props, storing things like Actor's and credit IDs. That made it possible for the data to be cleanly used with AJAX calls to request more information about an Actor."
+			},
+			"status": "WIP"
+		},
+
+		{
 			"project_name": "_Fusion",
 			"project_quote": "A uility library built with JavaScript",
 			"project_link": "https://github.com/devinharris/_fusion",
