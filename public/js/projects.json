@@ -268,56 +268,6 @@
 				"learned": ""
 			},
 			"status": "WIP"
-		},
-
-		{
-			"project_name": "Note",
-			"project_quote": "A static site.",
-			"project_link": "https://devinharris.github.io/Note",
-			"type": "Web Development & Design",
-			"desc":
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
-			"status": "WIP"
-		},
-
-		{
-			"project_name": "photog",
-			"project_quote": "A static site.",
-			"project_link": "https://devinharris.github.io/photog",
-			"type": "Web Development & Design",
-			"desc":
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
-			"status": "WIP"
-		},
-
-		{
-			"project_name": "Scrollio",
-			"project_quote": "Old jQuery plugin I built for smooth scrolling.",
-			"project_link": "https://www.github.com/DevinHarris/scrollio",
-			"type": "Web Development & Design",
-			"desc":
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
-			"status": "WIP"
-		},
-
-		{
-			"project_name": "Novelist",
-			"project_quote": "A static build of an old Wordpress site I built.",
-			"project_link": "https://devinharris.github.io/Novelist",
-			"type": "Web Development & Design",
-			"desc":
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
-			"status": "WIP"
-		},
-
-		{
-			"project_name": "HTML Email",
-			"project_quote": "An old HMTL Email template I built and designed.",
-			"project_link": "https://devinharris.github.io/html_email",
-			"type": "Web Development & Design",
-			"desc":
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis, beatae architecto nihil, tempore minus! Fuga ducimus, laudantium, quidem saepe odit corrupti amet, quibusdam quo distinctio et iste voluptate rem.",
-			"status": "WIP"
 		}
 	]
 }

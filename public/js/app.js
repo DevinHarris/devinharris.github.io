@@ -6,7 +6,8 @@
 	document.addEventListener('DOMContentLoaded', event => {
 		let projects,
 			counter = 0,
-			projectLink = querySel('.project-name'),
+			projectTitle = querySel('.project-title'),
+			projectLink = querySel('.project-link'),
 			projectType = querySel('.project-type'),
 			projectDesc = querySel('.project-desc'),
 			projectQuote = querySel('.project-quote'),
@@ -30,7 +31,7 @@
 
 		function addPortfolioData() {
 			// insertData for left sidebar
-			insertData(projectLink, projects.projects[counter].project_name);
+			insertData(projectTitle, projects.projects[counter].project_name);
 			projectLink.href = projects.projects[counter].project_link;
 			insertData(projectType, projects.projects[counter].type);
 			insertData(tools, projects.projects[counter].tools);
