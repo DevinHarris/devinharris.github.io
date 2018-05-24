@@ -10,6 +10,16 @@
 	-ms-animation: scrollAnimation 2s linear infinite;
 	animation: scrollAnimation 2s linear infinite;
 	animation-fill-mode: forwards;
+
+	.scroll-btn {
+		background-color: #fff;
+		border-radius: 10px;
+		height: 10px; /* 4px */
+		position: absolute;
+		left: 46%;
+		top: 25px;
+		width: 4px;
+	}
 }
 
 @keyframes scrollAnimation {
