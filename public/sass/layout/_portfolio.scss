@@ -8,6 +8,15 @@
     transition: all 0.6s ease;
     width: 100%;
 
+    .section-title {
+        color: #f4f4f4;
+        position: absolute;
+        top: 140px;
+        left: 6px;
+        z-index: 2;
+        transform: rotate(-90deg);
+    }
+
     .project-info-wrap,
     .project-img,
     .project-writeup-wrap {
